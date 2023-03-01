@@ -1,0 +1,65 @@
+*{
+    color:aqua;
+}
+
+
+
+
+p,span {
+    color:red;
+    width: 300px;
+  }
+
+h1 {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 30px;
+    margin-top: 40px; 
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+    font-weight: bold;
+    color: grey;
+    
+   }
+
+   section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+  
+/**
+  definimos un p de una determinada manera para editarlo aislado
+  **/
+  #parrafo1 {
+     
+    color: blueviolet;
+    font-size: 30px;
+    border: 1px solid orange;
+
+   }
+  /**
+  definimos una clase para poder usar con cualquier etiqueta
+  **/
+   .estaesmiclase{
+    font-weight: bold;
+    color: lightblue;
+   }
+
+   /**
+   lo que le estamos diciendo a css es que busque dentro del documento todos los elementos section que a su vez tengan un h1
+
+   **/
+   section h1{
+
+   }
+
